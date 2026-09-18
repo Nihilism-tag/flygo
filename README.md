@@ -32,7 +32,7 @@
 |---|---|---|
 | 数据 | FlyWire 全脑（v783 整理：139,255 神经元 / 15,091,983 连接 / 54,492,922 突触） | 已整理（本组工作区） |
 | 数据 | 神经元注释（8,840 细胞类型；Schlegel et al. 2024） | 已获取（parquet + 原始 TSV） |
-| 数据 | 合成测试床（DCN1 格式；20,831,149 边） | 见 [nero111](https://github.com/tangchen341/nero111) `main`（**合成数据**，仅测试用） |
+| 数据 | 合成测试床（DCN1 格式；20,831,149 边） | 上游数据仓库（私有，`nero111`）`main`（**合成数据**，仅测试用） |
 | 框架 | **web-katrain**：浏览器内 KataGo 引擎（TensorFlow.js） | [fork](https://github.com/Nihilism-tag/web-katrain) ・[上游](https://github.com/Sir-Teo/web-katrain) ・[在线版](https://sir-teo.github.io/web-katrain/) |
 | 工具 | KataGo 训练/自对弈、katagotraining、KaTrain、Sabaki、Go4Go | 按需获取 |
 
@@ -93,6 +93,6 @@ npm install && npm run dev            # 本地跑起浏览器围棋应用
 ## 9. 相关链接
 
 - web-katrain（fork）：https://github.com/Nihilism-tag/web-katrain ・上游：https://github.com/Sir-Teo/web-katrain
-- Redundome（连接组冗余/去冗余研究，共享数据与工具）：https://github.com/Nihilism-tag/redundome
+- Redundome（连接组冗余/去冗余研究，共享数据与工具）—— **私有仓库，暂未公开**
 - FlyWire：https://flywire.ai ・Codex：https://codex.flywire.ai ・neuPrint：https://neuprint.janelia.org
 - KataGo：https://github.com/lightvector/KataGo ・分布式训练：https://katagotraining.org

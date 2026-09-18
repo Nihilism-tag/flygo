@@ -11,4 +11,4 @@ data/
 
 获取入口与引用要求见 [`../docs/resources.md`](../docs/resources.md)。
 
-本组已有整理版本：FlyWire v783 有向图与神经元注释表（来源与校验记录见 Redundome 仓库）。
+本组已有整理版本：FlyWire v783 有向图与神经元注释表（来源与校验记录见本组 Redundome 工作区，当前为私有）。
