@@ -1,0 +1,14 @@
+# 外部框架克隆（保持独立仓）
+framework/*
+!framework/README.md
+
+# 数据工作区（内容不入库）
+data/*
+!data/README.md
+
+# 常规
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+node_modules/
